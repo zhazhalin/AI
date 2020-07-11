@@ -1,0 +1,32 @@
+.room{
+        width: 750rpx;
+        height: 45px;
+        line-height: 45px;
+        background-color: rgb(203, 21, 219);
+        text-align: center;
+        color: blueviolet;
+        font-size: 15px;
+      }
+      .chat{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(17, 229, 236);
+        padding-bottom: 5px;
+      }
+      .left{
+        width: 180rpx;
+        margin-right: 20rpx;
+      }
+      .avatar image{
+        width: 180rpx;
+        height: 180rpx;
+        border-radius: 50%;
+      }
+      .nickname{
+        text-align: center;
+      }
+      .right{
+        width: 550rpx;
+        background-color: rgb(192, 7, 167);
+        
+      }

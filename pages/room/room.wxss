@@ -1,0 +1,61 @@
+.room{
+  width: 750rpx;
+  height: 45px;
+  line-height: 45px;
+  background-color: cyan;
+  text-align: center;
+  color: blueviolet;
+  font-size: 15px;
+}
+.chat{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid cornflowerblue;
+  padding-bottom: 5px;
+}
+.left{
+  width: 180rpx;
+  margin-right: 20rpx;
+}
+.avatar image{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+}
+.nickname{
+  text-align: center;
+}
+.right{
+  width: 550rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 20px;
+  background-color: rgb(186, 239, 240);
+}
+.form{
+  width: 750rpx;
+  height: 40px;
+  background-color: rgb(14, 236, 229);
+  position: fixed;
+  bottom: 0;
+  padding:2px;
+  box-sizing: border-box;
+  display:flex;
+}
+.form input{
+  height: 37px;
+  line-height: 45px;
+  padding: 0 5px;
+  background-color: rgb(201, 238, 238);
+  width: 515rpx;
+  border-radius: 10px;
+}
+.form button{
+  height: 37px;
+  width: 200rpx !important;
+  line-height: 37px !important;
+  text-align: center;
+  margin-bottom: 2px;
+  border-radius: 10px;
+}

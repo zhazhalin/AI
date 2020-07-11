@@ -1,0 +1,22 @@
+<!--room/room.wxml-->
+<view class="room">我的聊天室</view>
+<view class="chat">
+    <view class="left">
+        <view class="avatar">
+            <image src="../img/TIM图片20200708105716.jpg"></image>
+        </view>
+        <view class="nickname">昵称</view>
+    </view>
+    <view class="right">李大壮真漂亮真漂亮</view>
+</view>
+
+<view class="chat">
+    <view class="right">李大壮确实漂亮</view>
+    <view class="left">
+        <view class="avatar">
+            <image src="../img/TIM图片20200708105723.jpg"></image>
+        </view>
+        <view class="nickname" >昵称</view>
+        
+    </view>
+</view>

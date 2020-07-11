@@ -1,0 +1,20 @@
+.mydiv {
+  width: 250rpx;
+  height: 250rpx;
+  background-color: aquamarine;
+  margin: 10rpx;
+  border: 1px solid chartreuse;
+  text-align: center;
+  line-height: 250rpx;
+  /* float: left; */
+}
+#mydiv{
+  width: 750rpx;
+  height: 500rpx;
+  background-color: chartreuse;
+  display: flex;
+  /* 水平方向对齐 */
+  justify-content: space-between;
+  /* 垂直方向居中对齐 */
+  align-items: center;
+}

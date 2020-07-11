@@ -1,0 +1,23 @@
+<!--my/my.wxml-->
+<text>我的第一个页面</text>
+<view>渣渣林</view>
+<view>渣渣林最帅</view>
+
+<view>
+	<icon class="icon-box-img" type="success" size="93"></icon>
+	<image src="http://img0.imgtn.bdimg.com/it/u=2296207577,3041891051&fm=26&gp=0.jpg">
+	</image>
+</view>
+<form>
+<input></input>
+</form>
+<navigator url="../pages/index/index">回到首页</navigator>
+<radio-group>
+<radio value="r1" checked="true">选中</radio>
+<radio value="r2" checked="true">未选中</radio>
+</radio-group>
+<picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="bindDateChange">
+<view class="picker">
+当前选择:{{date}}
+</view>
+</picker>

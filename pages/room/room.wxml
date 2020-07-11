@@ -1,0 +1,25 @@
+<!--room/room.wxml-->
+<view class="room">我的聊天室</view>
+<view class="chat" wx:for="{{chatLists}}" wx:for-index="ind" wx:for-item="chat">
+ <view class="right">{{chat.msg}}</view>
+    <view class="left">
+        <view class="avatar">
+            <image src="{{chat.avatar}}"></image>
+        </view>
+        <view class="nickname">{{chat.nickname}}</view>
+    </view>
+</view>
+
+<!-- <view class="chat">
+    <view class="right">渣渣林确实帅</view>
+    <view class="left">
+        <view class="avatar">
+            <image src="../img/头像1.jpg"></image>
+        </view>
+        <view class="nickname">渣渣林</view>
+    </view>
+</view> -->
+<view class="form">
+    <input class="input" value="{{msg}}"  bindinput="bindKeyInput" auto-focus placeholder="请输入聊天内容"/> 
+    <button type="primary" size="mini" bindtap="sendMsg">发送</button>
+</view>

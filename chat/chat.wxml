@@ -1,0 +1,8 @@
+<view id="mydiv">
+	<view class="mydiv">{{msg}}</view>
+	<view class="mydiv">我是渣渣林</view>
+	
+</view>
+	<view wx:for="{{student}}" wx:for-index="ind" wx:for-item="stu">{{ind+1}},姓名：{{stu.name}},性别：{{stu.sex}}</view>
+
+	<view wx:if="{{ifshow}}" bindtap="hiddenMe">我需要显示出来吗</view>
